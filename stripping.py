@@ -21,3 +21,11 @@ for character in first[::-1]:
         print(f'removing "{character}"')
     else:
         break
+
+print('*' * 80)
+
+twas_removed = first.removeprefix("'Twas")
+print(twas_removed)
+
+toves_removed = first.removesuffix('toves')
+print(toves_removed)
